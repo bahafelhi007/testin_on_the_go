@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+.Top-part{
+    display: flex;
+justify-content: space-around;
+background-color:#1f2937 ;
+height: 400px;
+padding-top: 0;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-top: -5%;
+padding: 100px;
+padding-right: 100px;
+}
+ul{
+    display: flex;
+    font-size: 14px;
+    gap: 65px;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    color: #e5e7eb;
+    font-family: inherit;
+    
+}
+.logo{
+color: #f9faf8;
+font-size: 18px;
+}
+.Top-part{
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 65px;
+    margin-bottom: 0;
+    padding-left: 70px;
+}
+.image-placeholder{
+    height: 200px;
+    width: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    border-radius: 5px;
+
+}
+.text-area{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around; 
+    margin-top: 100px;
+}
+.right-part{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 400px;
+    margin-left: 120px;
+    color: #f9faf8;
+}
+.p-img-placeholder{
+    
+    font-weight: bold;
+    
+}
+.button{
+    width: 100px;
+    height: 20px;
+    background-color: #3882f6; ;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    margin: 0; 
+    margin-top: 20px;
+    font-weight: bold;
+}
+.dec-1{
+    margin-right: 210px;
+    font-size: 18px;
+}
